@@ -1,0 +1,358 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: aqua;
+}
+.menu {
+  position: fixed;
+  width: 22%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.menu ul li {
+  font-size: 20px;
+  text-align: center;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+.menu ul li a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+  color: yellow;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+.menu ul li h3 {
+  padding: 10px 0px 10px 0px;
+  font-size: 20px;
+  color: yellow;
+}
+#photo {
+  border-color: white;
+}
+.bg {
+  float: right;
+  display: inline-block;
+  margin: 20px 30px 0px 0px;
+  width: 70%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+}
+.bgend {
+  float: right;
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
+  width: 78%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 20px;
+}
+.bg h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: yellow;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+.bg a:hover {
+  text-decoration: none;
+  color: yellow;
+  cursor: pointer;
+}
+.bg a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border-color: white;
+  border-width: medium;
+  border-style: groove;
+}
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+#bg2 {
+  background-size: cover;
+  background-image: url(img/aaa.jpg);
+  height: 450px;
+  width: 820px;
+}
+.line1 {
+  padding-top: 40px;
+  padding-left: 150px;
+  font-weight: 500;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.line2 {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+  color: yellow;
+}
+.line3 {
+  padding-top: 20px;
+  padding-left: 100px;
+  font-weight: bold;
+  color: maroon;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+}
+.line4 {
+  padding-top: 5px;
+  padding-left: 200px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  color: blue;
+}
+.line5 {
+  padding-top: 10px;
+  padding-left: 275px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  color: blue;
+}
+.line6 {
+  padding-top: 10px;
+  padding-left: 450px;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  color: blue;
+}
+.line7 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.line8 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  color: yellow;
+}
+.line9 {
+  padding-top: 30px;
+  padding-left: 500px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+.line9 a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: red;
+}
+#Objectives ol li {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#Academic table th {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: skyblue;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#Academic table tr td {
+  text-align: center;
+  padding: 10px 8px 10px 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  margin-left: 40px;
+}
+#Skills ol li {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#Internships table th {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: skyblue;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#Internships table tr td {
+  text-align: center;
+  padding: 10px 8px 10px 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  margin-left: 40px;
+}
+#Projects table th {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: skyblue;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#Projects table tr td {
+  text-align: center;
+  padding: 10px 8px 10px 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  margin-left: 40px;
+}
+#Activities table th {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: skyblue;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#Activities table tr td {
+  text-align: center;
+  padding: 10px 8px 10px 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  margin-left: 40px;
+}
+#Info ul li {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: "Ubuntu", sans-serif;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#FaQ ol li {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#FaQ ol li font {
+  padding-left: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: skyblue;
+  letter-spacing: 2px;
+  line-height: normal;
+  margin-left: 0px;
+}
+#Declaration p {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#Contact ul li {
+  padding-top: 10px;
+  padding-left: 10px;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 130px;
+  line-height: normal;
+  margin-left: 40px;
+}
+#Contact ol {
+  padding-left: 25%;
+}
+#Contact ol li {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 130px;
+  margin-left: 40px;
+}
